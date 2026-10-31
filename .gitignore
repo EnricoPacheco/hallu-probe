@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.DS_Store
+
+# chat exports and other personal data must never be committed
+*.zip
+*.txt
+!requirements.txt
+
+# extracted activations are large and regenerable
+data/activations.npz
+data/generalization_report.json
+data/activations_synthetic.npz

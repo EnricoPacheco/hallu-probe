@@ -1,0 +1,52 @@
+{
+  "holdout_categories": [
+    "Sociology",
+    "Economics",
+    "Law"
+  ],
+  "train_categories": [
+    "Conspiracies",
+    "Fiction",
+    "Health",
+    "History",
+    "Misconceptions",
+    "Paranormal",
+    "Stereotypes"
+  ],
+  "seed": 42,
+  "per_layer": [
+    {
+      "layer": 4,
+      "auc_in_domain": 0.4538,
+      "auc_cross_domain": 0.5288,
+      "gap": -0.075,
+      "auc_in_domain_ungrouped": 0.4875,
+      "leak_inflation": 0.0337,
+      "n_train": 1078,
+      "n_test_in_domain": 316,
+      "n_test_cross": 502
+    },
+    {
+      "layer": 16,
+      "auc_in_domain": 0.862,
+      "auc_cross_domain": 0.8681,
+      "gap": -0.0061,
+      "auc_in_domain_ungrouped": 0.9033,
+      "leak_inflation": 0.0413,
+      "n_train": 1078,
+      "n_test_in_domain": 316,
+      "n_test_cross": 502
+    },
+    {
+      "layer": 28,
+      "auc_in_domain": 0.9746,
+      "auc_cross_domain": 0.9744,
+      "gap": 0.0002,
+      "auc_in_domain_ungrouped": 0.9795,
+      "leak_inflation": 0.0049,
+      "n_train": 1078,
+      "n_test_in_domain": 316,
+      "n_test_cross": 502
+    }
+  ]
+}
